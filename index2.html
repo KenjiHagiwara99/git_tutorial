@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Gitチュートリアル</h1>
+    <p>Gitを使ってバージョン管理をしてみよう！</p>
+
+    <p>git diff</p>
+    <p>#git add する前の変更分<br>
+        ~$ git diff<br>
+        ~$ git diff <ファイル名><br>
+
+        # git addした後の変更分<br>
+        $ git diff --staged<p>
+
+    <p>git log<br>
+    <br>
+    # 一行で表示する
+
+    # ファイルの変更差分を表示する。<br>
+    ~$ git log -p <ファイル名><br>
+
+    # 表示するコミット数を制限する。
+    ~$ git log -p ＜ファイル名><br>
+
+    # 表示するコミット数を制限する。
+    ~$ git log -p ＜ファイル名><br>
+
+    # 表示するコミット数を制限する<br>
+    ~$ git log -p ＜ファイル名><br><p>
+
+    <p># ファイルごと削除<br>
+        ~ $ git rm <ファイル名><br>
+        ~ $ git rm -r <ファイル名><br>
+        <br>
+        # ファイルを残したいとき<br>
+        ~ $git rm --cached <ファイル名>
+    </p>
+</body>
+</html>
